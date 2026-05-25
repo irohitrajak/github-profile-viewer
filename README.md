@@ -40,6 +40,12 @@ npm run dev
 npm run build
 ```
 
+## GitHub Pages Deployment
+
+This repo includes a GitHub Actions workflow in `.github/workflows/deploy.yml` that builds the Vite app and deploys the `dist` folder to GitHub Pages.
+
+In your repository settings, set Pages source to **GitHub Actions** so the live site serves the compiled app instead of the source files.
+
 ## Notes
 
 - The app uses the GitHub REST API endpoint: `https://api.github.com/users/{username}`
